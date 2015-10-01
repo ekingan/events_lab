@@ -13,4 +13,9 @@ if ( $("h1").text() === "Go!" ){
   console.log("Success!");
 } else {
   console.log( 'Can you make it say "Go!"?' );
+  $(document).ready(function() {
+    $('h1').text("Go");
+
+});
+
 }
